@@ -13,7 +13,7 @@ namespace MovieAppTagHelper.TagHelpers
 
             for (int i = 0; i < Rating; i++)
             {
-                output.Content.AppendHtml("<i class=\"fa-regular fa-star fa-fade\"></i>");
+                output.Content.AppendHtml("<i class=\"fa-solid fa-star fa-fade\"></i>");
             }
         }
     }
